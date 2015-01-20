@@ -14,21 +14,36 @@
     <name>Code Generation Library</name>
     <url>https://github.com/cglib/cglib</url>
     <description>cglib is a powerful, high performance and quality Code Generation Library, It is used to extend JAVA classes and implements interfaces at runtime.</description>
-    
+
+	<distributionManagement>
+		<repository>
+			<id>deployment.external</id>
+			<name>external Release Repository</name>
+			<url>https://vaatwasser.topicuszorg.nl/nexus/content/repositories/external-releases/</url>
+			<uniqueVersion>false</uniqueVersion>
+		</repository>
+		<snapshotRepository>
+			<id>deployment.external</id>
+			<name>external snapshot Repository</name>
+			<url>https://vaatwasser.topicuszorg.nl/nexus/content/repositories/external-snapshot/</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+
     <scm>
-        <connection>scm:git:git://github.com/cglib/cglib.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/cglib/cglib.git</developerConnection>
-        <url>https://github.com/cglib/cglib</url>
+        <connection>scm:git:git://github.com/TopicusZorg/cglib.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/TopicusZorg/cglib.git</developerConnection>
+        <url>https://github.com/TopicusZorg/cglib</url>
     </scm>
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/cglib/cglib/issues</url>
+        <url>https://github.com/TopicusZorg/cglib/issues</url>
     </issueManagement>
 
     <ciManagement>
-        <system>Travis</system>
-        <url>https://travis-ci.org/cglib/cglib</url>
+        <system>Jenkins</system>
+        <url>https://vaatwasser:8080/job/cglib</url>
     </ciManagement>
 
     <licenses>
