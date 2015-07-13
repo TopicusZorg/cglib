@@ -8,7 +8,7 @@
     <!-- ====================================================================== -->
     <groupId>cglib</groupId>
     <artifactId>cglib-parent</artifactId>
-    <version>3.2.0-TOPICUS</version>
+    <version>3.3.0-TOPICUS-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Code Generation Library</name>
